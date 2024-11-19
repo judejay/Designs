@@ -10,6 +10,7 @@ using Designs.Creational_Patterns.Singleton;
 
 //using Designs.Creational_Patterns.Prototype;
 using Designs.Enums;
+using Designs.Stuctural_Patterns.Adapter;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,8 +37,11 @@ namespace Designs
             //Prototype prototype = new Prototype();
             //prototype.Run();
 
-            Singleton singleton = new Singleton();
-            singleton.Run();
+            //Singleton singleton = new Singleton();
+            //singleton.Run();
+
+            Adapter adapter = new Adapter();
+            adapter.Run();
         }
     }
 }

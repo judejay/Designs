@@ -88,6 +88,9 @@
     <Compile Include="Enums\VehicleColour.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stuctural Patterns\Adapter\Adapter.cs" />
+    <Compile Include="Stuctural Patterns\Adapter\SuperGreenEngine.cs" />
+    <Compile Include="Stuctural Patterns\Adapter\SuperGreenEngineAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
