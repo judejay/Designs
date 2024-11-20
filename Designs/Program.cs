@@ -11,6 +11,7 @@ using Designs.Creational_Patterns.Singleton;
 //using Designs.Creational_Patterns.Prototype;
 using Designs.Enums;
 using Designs.Stuctural_Patterns.Adapter;
+using Designs.Stuctural_Patterns.Bridge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,8 +41,11 @@ namespace Designs
             //Singleton singleton = new Singleton();
             //singleton.Run();
 
-            Adapter adapter = new Adapter();
-            adapter.Run();
+            //Adapter adapter = new Adapter();
+            //adapter.Run();
+
+            Bridge bridge = new Bridge();
+            bridge.Run(new SportControls(new TurboEngine(2000)));
         }
     }
 }

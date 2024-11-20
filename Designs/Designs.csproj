@@ -91,6 +91,10 @@
     <Compile Include="Stuctural Patterns\Adapter\Adapter.cs" />
     <Compile Include="Stuctural Patterns\Adapter\SuperGreenEngine.cs" />
     <Compile Include="Stuctural Patterns\Adapter\SuperGreenEngineAdapter.cs" />
+    <Compile Include="Stuctural Patterns\Bridge\AbstractDriverControls.cs" />
+    <Compile Include="Stuctural Patterns\Bridge\Bridge.cs" />
+    <Compile Include="Stuctural Patterns\Bridge\SportControls.cs" />
+    <Compile Include="Stuctural Patterns\Bridge\StandardControls.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
