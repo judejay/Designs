@@ -11,6 +11,10 @@ namespace Designs.Stuctural_Patterns.Bridge
     public class Bridge
     {
 
+        //Bridge pattern
+        // Decouple an abstraction from it's implementation
+        // So both can vary independently
+
         public void Run(SportControls controls2)
         {
             IEngine engine = new StandardEngine(1300);

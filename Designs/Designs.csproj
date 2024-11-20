@@ -95,6 +95,10 @@
     <Compile Include="Stuctural Patterns\Bridge\Bridge.cs" />
     <Compile Include="Stuctural Patterns\Bridge\SportControls.cs" />
     <Compile Include="Stuctural Patterns\Bridge\StandardControls.cs" />
+    <Compile Include="Stuctural Patterns\Composite\Assembly.cs" />
+    <Compile Include="Stuctural Patterns\Composite\Composite.cs" />
+    <Compile Include="Stuctural Patterns\Composite\Item.cs" />
+    <Compile Include="Stuctural Patterns\Composite\Part.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

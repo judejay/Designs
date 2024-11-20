@@ -12,6 +12,7 @@ using Designs.Creational_Patterns.Singleton;
 using Designs.Enums;
 using Designs.Stuctural_Patterns.Adapter;
 using Designs.Stuctural_Patterns.Bridge;
+using Designs.Stuctural_Patterns.Composite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,8 +45,11 @@ namespace Designs
             //Adapter adapter = new Adapter();
             //adapter.Run();
 
-            Bridge bridge = new Bridge();
-            bridge.Run(new SportControls(new TurboEngine(2000)));
+            //Bridge bridge = new Bridge();
+            //bridge.Run(new SportControls(new TurboEngine(2000)));
+
+            Composite composite = new Composite();
+            composite.Run();
         }
     }
 }
