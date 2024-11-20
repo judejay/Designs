@@ -13,6 +13,7 @@ using Designs.Enums;
 using Designs.Stuctural_Patterns.Adapter;
 using Designs.Stuctural_Patterns.Bridge;
 using Designs.Stuctural_Patterns.Composite;
+using Designs.Stuctural_Patterns.Decorator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,8 +49,11 @@ namespace Designs
             //Bridge bridge = new Bridge();
             //bridge.Run(new SportControls(new TurboEngine(2000)));
 
-            Composite composite = new Composite();
-            composite.Run();
+            //Composite composite = new Composite();
+            //composite.Run();
+
+            Decorator decorator = new Decorator();
+            decorator.Run();
         }
     }
 }

@@ -8,10 +8,12 @@ using System.Threading.Tasks;
 
 namespace Designs.Creational_Patterns.Prototype
 {
-    public abstract class AbstractVehicle: IVehicle
+    public abstract class AbstractVehicle : IVehicle
     {
         private IEngine engine;
         private VehicleColour colour;
+        private int price;
+
         public AbstractVehicle(IEngine engine) : this(engine, VehicleColour.Unpainted)
         {
         }
@@ -45,6 +47,17 @@ namespace Designs.Creational_Patterns.Prototype
         public override string ToString()
         {
             return this.GetType().Name + " (" + engine + ", " + colour + ")";
+        }
+        public int Price
+        {
+            get
+            {
+                return price;
+            }
+            set
+            {
+                price = value;
+            }
         }
     }
 }

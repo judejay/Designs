@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Designs.Abstract_Classes
 {
-public class AbstractVehicle: IVehicle
+public abstract class AbstractVehicle: IVehicle
     {
         private IEngine engine;
         private VehicleColour colour;
@@ -45,9 +45,11 @@ public class AbstractVehicle: IVehicle
         {
             this.colour = colour;
         }
+
+        public abstract int Price { get; }
         public override string ToString()
         {
-            return this.GetType().Name + " (" + engine + ", " + colour + ")";
+            return this.GetType().Name + " (" + engine + ", " + colour + ", price " + Price + ")";
         }
     }
 }

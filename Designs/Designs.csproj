@@ -99,6 +99,13 @@
     <Compile Include="Stuctural Patterns\Composite\Composite.cs" />
     <Compile Include="Stuctural Patterns\Composite\Item.cs" />
     <Compile Include="Stuctural Patterns\Composite\Part.cs" />
+    <Compile Include="Stuctural Patterns\Decorator\AbstractVehicleOption.cs" />
+    <Compile Include="Stuctural Patterns\Decorator\AirCondiotionedVehicle.cs" />
+    <Compile Include="Stuctural Patterns\Decorator\AlloyWheeledVehicle.cs" />
+    <Compile Include="Stuctural Patterns\Decorator\Decorator.cs" />
+    <Compile Include="Stuctural Patterns\Decorator\LeatherSeatedVehicle.cs" />
+    <Compile Include="Stuctural Patterns\Decorator\MetallicPaintedVehicle.cs" />
+    <Compile Include="Stuctural Patterns\Decorator\SatNavVehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -12,5 +12,7 @@ namespace Designs.Abstractions
         IEngine Engine { get; }
         VehicleColour Colour { get; }
         void Paint(VehicleColour colour);
+
+        int Price { get; }
     }
 }

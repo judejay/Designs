@@ -17,5 +17,13 @@ namespace Designs.Concrete_Classes
         public BoxVan(IEngine engine, VehicleColour colour) : base(engine, colour)
         {
         }
+
+        public override int Price
+        {
+            get
+            {
+                return 10000;
+            }
+        }
     }
 }

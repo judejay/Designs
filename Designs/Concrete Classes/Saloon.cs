@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Designs.Concrete_Classes
 {
-    internal class Saloon: AbstractCar
+    internal class Saloon : AbstractCar
     {
         public Saloon(IEngine engine) : this(engine, VehicleColour.Unpainted)
         {
@@ -17,6 +17,14 @@ namespace Designs.Concrete_Classes
         public Saloon(IEngine engine, VehicleColour colour) : base(engine, colour)
         {
         }
+
+        public override int Price
+        {
+            get
+            {
+                return 6000;
+            }
+        }
+
     }
-    
 }

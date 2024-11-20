@@ -17,6 +17,14 @@ namespace Designs.Concrete_Classes
         public Coupe(IEngine engine, VehicleColour colour) : base(engine, colour)
         {
         }
+
+        public override int Price
+        {
+            get
+            {
+                return 7000;
+            }
+        }
     }
     
     

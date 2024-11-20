@@ -27,6 +27,14 @@ namespace Designs.Concrete_Classes
         public Sport(Abstractions.IEngine engine, Enums.VehicleColour colour) : base(engine, colour)
         {
         }
+
+        public override int Price
+        {
+            get
+            {
+                return 18000;
+            }
+        }
     }
     
 }
