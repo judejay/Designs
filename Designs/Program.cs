@@ -16,6 +16,7 @@ using Designs.Stuctural_Patterns.Composite;
 using Designs.Stuctural_Patterns.Decorator;
 using Designs.Stuctural_Patterns.Facade;
 using Designs.Stuctural_Patterns.Flyweight;
+using Designs.Stuctural_Patterns.Proxy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,8 +60,11 @@ namespace Designs
             //Facade facade = new Facade();
             //facade.Run();
 
-            Flyweight flyweight = new Flyweight();
-            flyweight.Run();
+            //Flyweight flyweight = new Flyweight();
+            //flyweight.Run();
+
+            Proxy proxy = new Proxy();
+            proxy.Run();
         }
     }
 }

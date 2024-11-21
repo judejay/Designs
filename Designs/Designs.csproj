@@ -114,6 +114,8 @@
     <Compile Include="Stuctural Patterns\Flyweight\EngineFlyweightFactory.cs" />
     <Compile Include="Stuctural Patterns\Flyweight\Flyweight.cs" />
     <Compile Include="Stuctural Patterns\Flyweight\IDiagnosticTool.cs" />
+    <Compile Include="Stuctural Patterns\Proxy\EngineProxy.cs" />
+    <Compile Include="Stuctural Patterns\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
