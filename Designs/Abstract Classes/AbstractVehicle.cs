@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Designs.Abstract_Classes
 {
-public abstract class AbstractVehicle: IVehicle
+    public abstract class AbstractVehicle : IVehicle
     {
         private IEngine engine;
         private VehicleColour colour;
@@ -51,5 +51,26 @@ public abstract class AbstractVehicle: IVehicle
         {
             return this.GetType().Name + " (" + engine + ", " + colour + ", price " + Price + ")";
         }
+
+        public virtual void CleanInterior()
+        {
+            Console.WriteLine("Cleaning Interior");
+        }
+
+        public virtual void CleanExteriorBody()
+        {
+            Console.WriteLine("Cleaning Exterior Body");
+        }
+
+        public virtual void PolishWindows()
+        {
+            Console.WriteLine("Polishing Windows");
+        }
+
+        public virtual void TakeForTestDrive()
+        {
+            Console.WriteLine("Taking on test drive");
+        }
+
     }
 }

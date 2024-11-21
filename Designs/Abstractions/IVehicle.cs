@@ -14,5 +14,12 @@ namespace Designs.Abstractions
         void Paint(VehicleColour colour);
 
         int Price { get; }
+
+        void CleanInterior();
+        void CleanExteriorBody();
+        void PolishWindows();
+        void TakeForTestDrive();
+
+
     }
 }

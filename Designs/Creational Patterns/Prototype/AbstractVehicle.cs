@@ -59,5 +59,25 @@ namespace Designs.Creational_Patterns.Prototype
                 price = value;
             }
         }
+
+        public void CleanInterior()
+        {
+            // Implementation for cleaning the interior
+        }
+
+        public void CleanExteriorBody()
+        {
+            // Implementation for cleaning the exterior body
+        }
+
+        public void PolishWindows()
+        {
+            // Implementation for polishing the windows
+        }
+
+        public void TakeForTestDrive()
+        {
+            // Implementation for taking the vehicle for a test drive
+        }
     }
 }

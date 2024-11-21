@@ -106,6 +106,10 @@
     <Compile Include="Stuctural Patterns\Decorator\LeatherSeatedVehicle.cs" />
     <Compile Include="Stuctural Patterns\Decorator\MetallicPaintedVehicle.cs" />
     <Compile Include="Stuctural Patterns\Decorator\SatNavVehicle.cs" />
+    <Compile Include="Stuctural Patterns\Facade\Documentation.cs" />
+    <Compile Include="Stuctural Patterns\Facade\Facade.cs" />
+    <Compile Include="Stuctural Patterns\Facade\Registration.cs" />
+    <Compile Include="Stuctural Patterns\Facade\VehicleFacade.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

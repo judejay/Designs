@@ -14,6 +14,7 @@ using Designs.Stuctural_Patterns.Adapter;
 using Designs.Stuctural_Patterns.Bridge;
 using Designs.Stuctural_Patterns.Composite;
 using Designs.Stuctural_Patterns.Decorator;
+using Designs.Stuctural_Patterns.Facade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,8 +53,10 @@ namespace Designs
             //Composite composite = new Composite();
             //composite.Run();
 
-            Decorator decorator = new Decorator();
-            decorator.Run();
+            //Decorator decorator = new Decorator();
+            //decorator.Run();
+            Facade facade = new Facade();
+            facade.Run();
         }
     }
 }
