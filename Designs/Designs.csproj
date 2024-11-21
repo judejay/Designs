@@ -110,6 +110,10 @@
     <Compile Include="Stuctural Patterns\Facade\Facade.cs" />
     <Compile Include="Stuctural Patterns\Facade\Registration.cs" />
     <Compile Include="Stuctural Patterns\Facade\VehicleFacade.cs" />
+    <Compile Include="Stuctural Patterns\Flyweight\EngineDiagnosticTool.cs" />
+    <Compile Include="Stuctural Patterns\Flyweight\EngineFlyweightFactory.cs" />
+    <Compile Include="Stuctural Patterns\Flyweight\Flyweight.cs" />
+    <Compile Include="Stuctural Patterns\Flyweight\IDiagnosticTool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

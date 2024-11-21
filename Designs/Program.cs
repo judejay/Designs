@@ -15,6 +15,7 @@ using Designs.Stuctural_Patterns.Bridge;
 using Designs.Stuctural_Patterns.Composite;
 using Designs.Stuctural_Patterns.Decorator;
 using Designs.Stuctural_Patterns.Facade;
+using Designs.Stuctural_Patterns.Flyweight;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,8 +56,11 @@ namespace Designs
 
             //Decorator decorator = new Decorator();
             //decorator.Run();
-            Facade facade = new Facade();
-            facade.Run();
+            //Facade facade = new Facade();
+            //facade.Run();
+
+            Flyweight flyweight = new Flyweight();
+            flyweight.Run();
         }
     }
 }

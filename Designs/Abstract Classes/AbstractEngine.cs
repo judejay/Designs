@@ -1,4 +1,5 @@
 ﻿using Designs.Abstractions;
+using Designs.Stuctural_Patterns.Flyweight;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,6 +64,11 @@ namespace Designs.Abstract_Classes
                 Console.WriteLine("Engine power decreased to " + power);
             }
 
+        }
+
+        public  virtual void Diagnose(IDiagnosticTool tool)
+        {
+            tool.RunDiagnosis(this);
         }
     }
 }
