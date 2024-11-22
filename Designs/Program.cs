@@ -1,6 +1,7 @@
 ﻿using Designs.Abstract_Classes;
 using Designs.Abstractions;
 using Designs.Behavioural.Chain_of_responsibility;
+using Designs.Behavioural.Command;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -66,8 +67,11 @@ namespace Designs
 
             //Proxy proxy = new Proxy();
             //proxy.Run();
-            ChainOfResponsibility chainOfResponsibility = new ChainOfResponsibility();
-            chainOfResponsibility.Run();
+            //ChainOfResponsibility chainOfResponsibility = new ChainOfResponsibility();
+            //chainOfResponsibility.Run();
+
+            Command command = new Command();
+            command.Run();
         }
     }
 }

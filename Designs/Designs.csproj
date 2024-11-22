@@ -57,6 +57,15 @@
     <Compile Include="Behavioural\Chain of responsibility\SalesEmailHandler.cs" />
     <Compile Include="Behavioural\Chain of responsibility\ServiceEmailHandler.cs" />
     <Compile Include="Behavioural\Chain of responsibility\SpamEmailHandler.cs" />
+    <Compile Include="Behavioural\Command\Command.cs" />
+    <Compile Include="Behavioural\Command\ElectricWindow.cs" />
+    <Compile Include="Behavioural\Command\IVoiceCommand.cs" />
+    <Compile Include="Behavioural\Command\Radio.cs" />
+    <Compile Include="Behavioural\Command\SpeechRecogniser.cs" />
+    <Compile Include="Behavioural\Command\VolumnDownCommand.cs" />
+    <Compile Include="Behavioural\Command\VolumnUpCommand.cs" />
+    <Compile Include="Behavioural\Command\WindowDownCommand.cs" />
+    <Compile Include="Behavioural\Command\WindowUpCommand.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />
