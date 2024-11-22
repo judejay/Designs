@@ -9,6 +9,8 @@ namespace Designs.Behavioural.Command
     public interface IVoiceCommand
     {
         void Execute();
-        
+
+        void Undo();
+
     }
 }

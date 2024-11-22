@@ -21,6 +21,9 @@ namespace Designs.Behavioural.Command
             _radio.VolumeUp();
         }
 
-       
+        public virtual void Undo()
+        {
+            _radio.VolumeDown();
+        }
     }
 }

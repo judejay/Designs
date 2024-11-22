@@ -37,12 +37,14 @@ namespace Designs.Behavioural.Command
             speechRecogniser.HearUpSpoken();
             speechRecogniser.HearUpSpoken();
             speechRecogniser.HearDownSpoken();
+            speechRecogniser.HearUndoSpoken();
 
             // Now set the command objects to control the window
             speechRecogniser.SetCommands(windowUp, windowDown);
             Console.WriteLine("Speech Recogniser is now controlling the window");
             speechRecogniser.HearDownSpoken();
             speechRecogniser.HearUpSpoken();
+            speechRecogniser.HearUndoSpoken();
             Console.ReadLine();
         }
 

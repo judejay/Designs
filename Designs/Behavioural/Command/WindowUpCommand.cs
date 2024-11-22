@@ -18,6 +18,9 @@ namespace Designs.Behavioural.Command
             _window.CloseWindow();
         }
 
-       
+        public void Undo()
+        {
+            _window.OpenWindow();
+        }
     }
 }
