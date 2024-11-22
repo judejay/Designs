@@ -49,6 +49,14 @@
     <Compile Include="Abstract Classes\AbstractVehicle.cs" />
     <Compile Include="Abstractions\IEngine.cs" />
     <Compile Include="Abstractions\IVehicle.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\AbstractEmailHandler.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\ChainOfResponsibility.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\GeneralEnquiriesEmailHandler.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\IEmailHandler.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\ManagerEmailHandler.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\SalesEmailHandler.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\ServiceEmailHandler.cs" />
+    <Compile Include="Behavioural\Chain of responsibility\SpamEmailHandler.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />

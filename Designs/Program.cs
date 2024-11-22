@@ -1,5 +1,6 @@
 ﻿using Designs.Abstract_Classes;
 using Designs.Abstractions;
+using Designs.Behavioural.Chain_of_responsibility;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -63,8 +64,10 @@ namespace Designs
             //Flyweight flyweight = new Flyweight();
             //flyweight.Run();
 
-            Proxy proxy = new Proxy();
-            proxy.Run();
+            //Proxy proxy = new Proxy();
+            //proxy.Run();
+            ChainOfResponsibility chainOfResponsibility = new ChainOfResponsibility();
+            chainOfResponsibility.Run();
         }
     }
 }
