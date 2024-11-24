@@ -3,6 +3,7 @@ using Designs.Abstractions;
 using Designs.Behavioural.Chain_of_responsibility;
 using Designs.Behavioural.Command;
 using Designs.Behavioural.Interpreter;
+using Designs.Behavioural.Iterator;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -74,8 +75,11 @@ namespace Designs
             //Command command = new Command();
             //command.Run();
 
-            Interpreter interpreter = new Interpreter();
-            interpreter.Run();
+            //Interpreter interpreter = new Interpreter();
+            //interpreter.Run();
+
+            Iterator interator = new Iterator();
+            interator.Run();
         }
     }
 }

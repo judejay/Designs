@@ -75,6 +75,9 @@
     <Compile Include="Behavioural\Interpreter\MostNortherlyExpression.cs" />
     <Compile Include="Behavioural\Interpreter\MostSoutherlyExpression.cs" />
     <Compile Include="Behavioural\Interpreter\MostWesterlyExpression.cs" />
+    <Compile Include="Behavioural\Iterator\CarRange.cs" />
+    <Compile Include="Behavioural\Iterator\Iterator.cs" />
+    <Compile Include="Behavioural\Iterator\VanRange.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />
