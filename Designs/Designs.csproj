@@ -78,6 +78,13 @@
     <Compile Include="Behavioural\Iterator\CarRange.cs" />
     <Compile Include="Behavioural\Iterator\Iterator.cs" />
     <Compile Include="Behavioural\Iterator\VanRange.cs" />
+    <Compile Include="Behavioural\Mediator\Accelerator.cs" />
+    <Compile Include="Behavioural\Mediator\Brake.cs" />
+    <Compile Include="Behavioural\Mediator\EngineManagementSystem.cs" />
+    <Compile Include="Behavioural\Mediator\Gear.cs" />
+    <Compile Include="Behavioural\Mediator\Gearbox.cs" />
+    <Compile Include="Behavioural\Mediator\Ignition.cs" />
+    <Compile Include="Behavioural\Mediator\Mediator.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />

@@ -4,6 +4,7 @@ using Designs.Behavioural.Chain_of_responsibility;
 using Designs.Behavioural.Command;
 using Designs.Behavioural.Interpreter;
 using Designs.Behavioural.Iterator;
+using Designs.Behavioural.Mediator;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -78,8 +79,11 @@ namespace Designs
             //Interpreter interpreter = new Interpreter();
             //interpreter.Run();
 
-            Iterator interator = new Iterator();
-            interator.Run();
+            //Iterator interator = new Iterator();
+            //interator.Run();
+
+            Mediator mediator = new Mediator();
+            mediator.Run();
         }
     }
 }
