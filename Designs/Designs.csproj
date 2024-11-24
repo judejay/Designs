@@ -66,6 +66,15 @@
     <Compile Include="Behavioural\Command\VolumnUpCommand.cs" />
     <Compile Include="Behavioural\Command\WindowDownCommand.cs" />
     <Compile Include="Behavioural\Command\WindowUpCommand.cs" />
+    <Compile Include="Behavioural\Interpreter\City.cs" />
+    <Compile Include="Behavioural\Interpreter\CityExpression.cs" />
+    <Compile Include="Behavioural\Interpreter\DirectionalEvaluator.cs" />
+    <Compile Include="Behavioural\Interpreter\IExpression.cs" />
+    <Compile Include="Behavioural\Interpreter\Interpreter.cs" />
+    <Compile Include="Behavioural\Interpreter\MostEasterlyExpression.cs" />
+    <Compile Include="Behavioural\Interpreter\MostNortherlyExpression.cs" />
+    <Compile Include="Behavioural\Interpreter\MostSoutherlyExpression.cs" />
+    <Compile Include="Behavioural\Interpreter\MostWesterlyExpression.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />

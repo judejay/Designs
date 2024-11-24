@@ -2,6 +2,7 @@
 using Designs.Abstractions;
 using Designs.Behavioural.Chain_of_responsibility;
 using Designs.Behavioural.Command;
+using Designs.Behavioural.Interpreter;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -70,8 +71,11 @@ namespace Designs
             //ChainOfResponsibility chainOfResponsibility = new ChainOfResponsibility();
             //chainOfResponsibility.Run();
 
-            Command command = new Command();
-            command.Run();
+            //Command command = new Command();
+            //command.Run();
+
+            Interpreter interpreter = new Interpreter();
+            interpreter.Run();
         }
     }
 }
