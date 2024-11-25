@@ -85,6 +85,8 @@
     <Compile Include="Behavioural\Mediator\Gearbox.cs" />
     <Compile Include="Behavioural\Mediator\Ignition.cs" />
     <Compile Include="Behavioural\Mediator\Mediator.cs" />
+    <Compile Include="Behavioural\Memento\Memento.cs" />
+    <Compile Include="Behavioural\Memento\SpeedometerMomento.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />

@@ -16,11 +16,7 @@ namespace Designs.Behavioural.Mediator
             Accelerator accelerator = new Accelerator(mediator);
             Brake brake = new Brake(mediator);
             Gearbox gearbox = new Gearbox(mediator);
-            //mediator.RegisterGearbox(gearbox);
-
-            //mediator.RegisterIgnition(ignition);
-            //mediator.RegisterAccelerator(accelerator);
-            //mediator.RegisterBrake(brake);
+            
             ignition.Start();
             
             accelerator.AccelerateToSpeed(100);
