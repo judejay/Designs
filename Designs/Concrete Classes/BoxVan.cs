@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Designs.Concrete_Classes
 {
-    internal class BoxVan: AbstractVan
+    public class BoxVan: AbstractVan
     {
         public BoxVan(IEngine engine) : this(engine, VehicleColour.Unpainted)
         {

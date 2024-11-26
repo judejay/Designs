@@ -100,6 +100,13 @@
     <Compile Include="Behavioural\State\MonthSetupState.cs" />
     <Compile Include="Behavioural\State\State.cs" />
     <Compile Include="Behavioural\State\YearSetupState.cs" />
+    <Compile Include="Behavioural\Strategy\AbstractCar.cs" />
+    <Compile Include="Behavioural\Strategy\IGearboxStrategy.cs" />
+    <Compile Include="Behavioural\Strategy\Saloon.cs" />
+    <Compile Include="Behavioural\Strategy\SportGearboxStrategy.cs" />
+    <Compile Include="Behavioural\Strategy\StandardEngine.cs" />
+    <Compile Include="Behavioural\Strategy\StandardGearboxStrategy.cs" />
+    <Compile Include="Behavioural\Strategy\Strategy.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />

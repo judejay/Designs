@@ -7,14 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Designs.Concrete_Classes
+
+namespace Designs.Behavioural.Strategy
 {
-    public class Pickup : AbstractVan
+    public class Saloon : AbstractCar
     {
-        public Pickup(IEngine engine) : this(engine, VehicleColour.Unpainted)
+        public Saloon(IEngine engine) : this(engine, VehicleColour.Unpainted)
         {
         }
-        public Pickup(IEngine engine, VehicleColour colour) : base(engine, colour)
+        public Saloon(IEngine engine, VehicleColour colour) : base(engine, colour)
         {
         }
 
@@ -22,9 +23,9 @@ namespace Designs.Concrete_Classes
         {
             get
             {
-                return 19000;
+                return 6000;
             }
         }
+
     }
-    
 }

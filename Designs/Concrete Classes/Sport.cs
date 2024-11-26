@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Designs.Concrete_Classes
 {
-    internal class Sport: AbstractCar
+    public class Sport: AbstractCar
     {
         // Benefits of using constructor chaining in C#:
 

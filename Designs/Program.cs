@@ -7,6 +7,7 @@ using Designs.Behavioural.Iterator;
 using Designs.Behavioural.Mediator;
 using Designs.Behavioural.Observer;
 using Designs.Behavioural.State;
+using Designs.Behavioural.Strategy;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -93,8 +94,11 @@ namespace Designs
             //Observer observer = new Observer();
             //observer.Run();
 
-            State state = new State();
-            state.Run();
+            //State state = new State();
+            //state.Run();
+
+            Strategy strategy = new Strategy();
+            strategy.Run();
         }
     }
 }

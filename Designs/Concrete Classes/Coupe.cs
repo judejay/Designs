@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Designs.Concrete_Classes
 {
-    internal class Coupe: AbstractCar
+    public class Coupe: AbstractCar
     {
         public Coupe(IEngine engine) : this(engine, VehicleColour.Unpainted)
         {
