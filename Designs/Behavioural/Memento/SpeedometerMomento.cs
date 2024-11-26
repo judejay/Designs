@@ -18,7 +18,7 @@ namespace Designs.Behavioural.Memento
             formatter.Serialize(stream, speedometer);
             stream.Close();
         }
-            public virtual Speedometer RestoreState()
+        public virtual Speedometer RestoreState()
         {
             //Deserialize the object
             Speedometer speedo;
@@ -30,3 +30,4 @@ namespace Designs.Behavioural.Memento
 
         }
     }
+}

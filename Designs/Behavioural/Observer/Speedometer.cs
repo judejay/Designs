@@ -4,26 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Designs.Behavioural.Memento
+namespace Designs.Behavioural.Observer
 {
-    [Serializable]
     public class Speedometer
     {
-        private int _currentSpeed;
-        private int _previousSpeed;
+        public event EventHandler ValueChanged;
 
+        private int _currentSpeed;
         public Speedometer()
         {
             _currentSpeed = 0;
-            _previousSpeed = 0;
         }
 
         public virtual int CurrentSpeed
         {
             set
             {
-                _previousSpeed = _currentSpeed;
                 _currentSpeed = value;
+                OnValueChanged();
             }
             get
             {
@@ -31,13 +29,9 @@ namespace Designs.Behavioural.Memento
             }
         }
 
-        //Only defined to help testing
-        public virtual int PreviousSpeed()
+        protected virtual void OnValueChanged()
         {
-            return _previousSpeed;
+            ValueChanged?.Invoke(this, EventArgs.Empty);
         }
     }
-    
-
-
 }

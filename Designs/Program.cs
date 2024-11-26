@@ -5,6 +5,7 @@ using Designs.Behavioural.Command;
 using Designs.Behavioural.Interpreter;
 using Designs.Behavioural.Iterator;
 using Designs.Behavioural.Mediator;
+using Designs.Behavioural.Observer;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -82,8 +83,14 @@ namespace Designs
             //Iterator interator = new Iterator();
             //interator.Run();
 
-            Mediator mediator = new Mediator();
-            mediator.Run();
+            //Mediator mediator = new Mediator();
+            //mediator.Run();
+
+            //Memento memento = new Memento();
+            //memento.Run();
+
+            Observer observer = new Observer();
+            observer.Run();
         }
     }
 }
