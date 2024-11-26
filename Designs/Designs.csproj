@@ -91,6 +91,15 @@
     <Compile Include="Behavioural\Observer\Observer.cs" />
     <Compile Include="Behavioural\Observer\SpeedMonitor.cs" />
     <Compile Include="Behavioural\Observer\Speedometer.cs" />
+    <Compile Include="Behavioural\State\ClockSetup.cs" />
+    <Compile Include="Behavioural\State\DaySetupState.cs" />
+    <Compile Include="Behavioural\State\FinishedSetupState.cs" />
+    <Compile Include="Behavioural\State\HourSetupState.cs" />
+    <Compile Include="Behavioural\State\IClockSetupState.cs" />
+    <Compile Include="Behavioural\State\MinuteSetupState.cs" />
+    <Compile Include="Behavioural\State\MonthSetupState.cs" />
+    <Compile Include="Behavioural\State\State.cs" />
+    <Compile Include="Behavioural\State\YearSetupState.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />

@@ -6,6 +6,7 @@ using Designs.Behavioural.Interpreter;
 using Designs.Behavioural.Iterator;
 using Designs.Behavioural.Mediator;
 using Designs.Behavioural.Observer;
+using Designs.Behavioural.State;
 using Designs.Concrete_Classes;
 using Designs.Creational_Patterns.Abstract_Factory;
 using Designs.Creational_Patterns.Builder;
@@ -89,8 +90,11 @@ namespace Designs
             //Memento memento = new Memento();
             //memento.Run();
 
-            Observer observer = new Observer();
-            observer.Run();
+            //Observer observer = new Observer();
+            //observer.Run();
+
+            State state = new State();
+            state.Run();
         }
     }
 }
