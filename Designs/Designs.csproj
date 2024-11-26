@@ -107,6 +107,10 @@
     <Compile Include="Behavioural\Strategy\StandardEngine.cs" />
     <Compile Include="Behavioural\Strategy\StandardGearboxStrategy.cs" />
     <Compile Include="Behavioural\Strategy\Strategy.cs" />
+    <Compile Include="Behavioural\Template\AbstractBookletPrinter.cs" />
+    <Compile Include="Behavioural\Template\SaloonBookletPrinter.cs" />
+    <Compile Include="Behavioural\Template\ServiceHistoryBooklet.cs" />
+    <Compile Include="Behavioural\Template\Template.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />
@@ -178,6 +182,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Behavioural\Visitor\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
