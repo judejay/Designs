@@ -111,6 +111,14 @@
     <Compile Include="Behavioural\Template\SaloonBookletPrinter.cs" />
     <Compile Include="Behavioural\Template\ServiceHistoryBooklet.cs" />
     <Compile Include="Behavioural\Template\Template.cs" />
+    <Compile Include="Behavioural\Visitor\Camshaft.cs" />
+    <Compile Include="Behavioural\Visitor\EngineDiagnostics.cs" />
+    <Compile Include="Behavioural\Visitor\EngineInventory.cs" />
+    <Compile Include="Behavioural\Visitor\IEngineVisitor.cs" />
+    <Compile Include="Behavioural\Visitor\IVisitable.cs" />
+    <Compile Include="Behavioural\Visitor\Piston.cs" />
+    <Compile Include="Behavioural\Visitor\SparkPlug.cs" />
+    <Compile Include="Behavioural\Visitor\Visitor.cs" />
     <Compile Include="Concrete Classes\BoxVan.cs" />
     <Compile Include="Concrete Classes\Coupe.cs" />
     <Compile Include="Concrete Classes\Pickup.cs" />
@@ -182,8 +190,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behavioural\Visitor\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

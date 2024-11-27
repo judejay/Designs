@@ -1,4 +1,5 @@
 ﻿using Designs.Abstractions;
+using Designs.Behavioural.Visitor;
 using Designs.Concrete_Classes;
 using Designs.Stuctural_Patterns.Flyweight;
 using System;
@@ -36,6 +37,11 @@ namespace Designs.Stuctural_Patterns.Proxy
         public virtual bool Turbo
         {
             get { return engine.Turbo; }
+        }
+
+        public void AcceptEngineVisitor(IEngineVisitor visitor)
+        {
+            throw new NotImplementedException();
         }
 
         public void DecreasePower()

@@ -1,4 +1,5 @@
-﻿using Designs.Stuctural_Patterns.Flyweight;
+﻿using Designs.Behavioural.Visitor;
+using Designs.Stuctural_Patterns.Flyweight;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Designs.Abstractions
 {
-    public interface IEngine
+    public interface IEngine : IVisitable
     {
         int Size { get; }
         bool Turbo { get; }

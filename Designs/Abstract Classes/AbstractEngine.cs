@@ -1,4 +1,5 @@
 ﻿using Designs.Abstractions;
+using Designs.Behavioural.Visitor;
 using Designs.Stuctural_Patterns.Flyweight;
 using System;
 using System.Collections.Generic;
@@ -15,12 +16,26 @@ namespace Designs.Abstract_Classes
 
         private bool running;
         private int power;
+
+        private Camshaft camshaft;
+        private Piston piston;
+        private SparkPlug[] sparkPlugs;
         protected AbstractEngine(int size, bool turbo)
         {
             this.size = size;
             this.turbo = turbo;
             power = 0;
             running = false;
+
+            camshaft = new Camshaft();
+            piston = new Piston();
+            sparkPlugs = new SparkPlug[]
+            {
+                new SparkPlug(),
+                new SparkPlug(),
+                new SparkPlug(),
+                new SparkPlug()
+            };
         }
         public virtual int Size { get { return size; } }
 
@@ -69,6 +84,20 @@ namespace Designs.Abstract_Classes
         public  virtual void Diagnose(IDiagnosticTool tool)
         {
             tool.RunDiagnosis(this);
+        }
+
+        public virtual void AcceptEngineVisitor(IEngineVisitor visitor)
+        {
+            //Visit each component
+            camshaft.AcceptEngineVisitor(visitor);
+            piston.AcceptEngineVisitor(visitor);
+            foreach (SparkPlug plug in sparkPlugs)
+            {
+                plug.AcceptEngineVisitor(visitor);
+            }
+            // Now visit the reciever
+            visitor.Visit(this);
+
         }
     }
 }
