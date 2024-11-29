@@ -156,6 +156,11 @@
     <Compile Include="Creational Patterns\Singleton\SerialNumberGenerator.cs" />
     <Compile Include="Creational Patterns\Singleton\Singleton.cs" />
     <Compile Include="Enums\VehicleColour.cs" />
+    <Compile Include="Others\BrakeFluidLight.cs" />
+    <Compile Include="Others\IWarningLight.cs" />
+    <Compile Include="Others\Null Object.cs" />
+    <Compile Include="Others\NullObject.cs" />
+    <Compile Include="Others\OilLevelLight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stuctural Patterns\Adapter\Adapter.cs" />

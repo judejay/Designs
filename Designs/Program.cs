@@ -20,6 +20,7 @@ using Designs.Creational_Patterns.Singleton;
 
 //using Designs.Creational_Patterns.Prototype;
 using Designs.Enums;
+using Designs.Others;
 using Designs.Stuctural_Patterns.Adapter;
 using Designs.Stuctural_Patterns.Bridge;
 using Designs.Stuctural_Patterns.Composite;
@@ -105,8 +106,11 @@ namespace Designs
             //Template template = new Template();
             //template.Run();
 
-            Visitor visitor = new Visitor();
-            visitor.Run();
+            //Visitor visitor = new Visitor();
+            //visitor.Run();
+
+            Null_Object nullObject = new Null_Object();
+            nullObject.Run();
         }
     }
 }
