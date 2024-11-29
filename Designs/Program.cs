@@ -21,6 +21,7 @@ using Designs.Creational_Patterns.Singleton;
 //using Designs.Creational_Patterns.Prototype;
 using Designs.Enums;
 using Designs.Others;
+using Designs.Others.Simple_Factory;
 using Designs.Stuctural_Patterns.Adapter;
 using Designs.Stuctural_Patterns.Bridge;
 using Designs.Stuctural_Patterns.Composite;
@@ -109,8 +110,11 @@ namespace Designs
             //Visitor visitor = new Visitor();
             //visitor.Run();
 
-            Null_Object nullObject = new Null_Object();
-            nullObject.Run();
+            //Null_Object nullObject = new Null_Object();
+            //nullObject.Run();
+
+            SimpleFactory simpleFactory = new SimpleFactory();
+            simpleFactory.Run();
         }
     }
 }
